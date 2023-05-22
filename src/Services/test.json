@@ -1,0 +1,51 @@
+<ref *2> Text {
+    parent: <ref *1> Element {
+      parent: Element {
+        parent: [Element],
+        prev: [Text],
+        next: [Text],
+        startIndex: null,
+        endIndex: null,
+        children: [Array],
+        name: 'tr',
+        attribs: [Object: null prototype],
+        type: 'tag',
+        namespace: 'http://www.w3.org/1999/xhtml',
+        'x-attribsNamespace': [Object: null prototype],
+        'x-attribsPrefix': [Object: null prototype]
+      },
+      prev: Text {
+        parent: [Element],
+        prev: null,
+        next: [Circular *1],
+        startIndex: null,
+        endIndex: null,
+        data: '\n              ',
+        type: 'text'
+      },
+      next: Text {
+        parent: [Element],
+        prev: [Circular *1],
+        next: [Element],
+        startIndex: null,
+        endIndex: null,
+        data: '\n              ',
+        type: 'text'
+      },
+      startIndex: null,
+      endIndex: null,
+      children: [ [Circular *2] ],
+      name: 'td',
+      attribs: [Object: null prototype] { class: 'label' },
+      type: 'tag',
+      namespace: 'http://www.w3.org/1999/xhtml',
+      'x-attribsNamespace': [Object: null prototype] { class: undefined },
+      'x-attribsPrefix': [Object: null prototype] { class: undefined }
+    },
+    prev: null,
+    next: null,
+    startIndex: null,
+    endIndex: null,
+    data: 'Data Início Recebimento de Propostas',
+    type: 'text'
+  }
