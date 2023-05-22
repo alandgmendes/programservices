@@ -5,6 +5,8 @@ const { join } = require('path');
  */
 module.exports = {
   // Changes the cache location for Puppeteer.
-  cacheDirectory:
-    '/tmp/alandgmendes-programservices/.cache/puppeteer/chrome/chrome/linux-113.0.5672.63/chrome/linux-113.0.5672.63',
+  cacheDirectory: join(
+    __dirname,
+    '.cache/puppeteer/chrome/chrome/linux-113.0.5672.63/chrome/linux-113.0.5672.63',
+  ),
 };
